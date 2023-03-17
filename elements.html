@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Fish Breeding</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script language="javascript">
+     function Executar(){
+	    alert("Obrigado " + form1.txtnome.value + " pela visita!!"   );	
+	 }
+   </script>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Fish Breeding</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Início</a></li>
+							<li>
+								<a href="#">Explorar</a>
+								<ul>
+									<li><a href="left-sidebar.html">Local</a></li>
+									<li><a href="right-sidebar.html">O Que Fazemos</a></li>
+									<li><a href="no-sidebar.html"> Criações</a></li>
+									<li>
+										
+									</li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Mais Sobre</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Mais Sobre </h2>
+							<p>Abaixo, confira tabelas de preços, e tire suas dúvidas</p>
+						</header>
+
+						<!-- Text -->
+							<section>								
+								<blockquote>Lembramos, que abaixo, estão apenas as espécies mais pedidas por compradores. Caso queira um outro tipo/espécie, entre em contato nos enviando uma mensagem!</blockquote>
+
+								
+							</section>
+
+						<!-- Lists -->
+							<section>
+								<div class="row">
+									<div class="col-6 col-12-xsmall">								
+
+									</div>
+									<div class="col-6 col-12-xsmall">																									
+
+									</div>
+								</div>
+																
+
+						<!-- Table -->
+							<section>
+								<div class="table-wrapper">
+									<table>
+										<thead>
+											<tr>
+												<th>Código</th>
+												<th>Espécie</th>
+												<th>Valor por KG</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>Tambaqui</td>
+												<td>30,00</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>Pirarucu</td>
+												<td>43,00</td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>Tilápias</td>
+												<td>32,50</td>
+											</tr>
+											<tr>
+												<td>4</td>
+												<td>Patinga</td>
+												<td>15,00</td>
+											</tr>
+											<tr>
+												<td>5</td>
+												<td>Pacu</td>
+												<td>13,90</td>
+											</tr>
+											<tr>
+												<td>6</td>
+												<td>Pintado</td>
+												<td>43,00</td>
+											</tr>
+											<tr>
+												<td>7</td>
+												<td>Piau</td>
+												<td>11,99</td>
+											</tr>										
+										</tbody>
+										<tfoot>											
+										</tfoot>
+									</table>
+								</div>								
+												
+						<!-- Form -->
+							<section>
+							
+								<br></br>
+								<h3>Formulário de Pedidos:</h3>
+								<form name="form1">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											
+											<input type="text" id="name" name="name" value="" placeholder="Nome Completo"required><br>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" id="message" name="message" placeholder="Telefone para contato"required><br>
+	                                        
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" id="message" name="message" placeholder="Local onde pretende receber o produto"required><br>
+	                                        
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" id="email" name="email" placeholder="Seu E-mail para resposta"required><br>
+	                                        
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" id="message" name="message" placeholder="Código(s) do(s) peixe(s)"required><br>
+	                                        
+										</div>
+										<div class="col-12">
+										<h1>Média total da quantidade de peixes (Soma dos códigos (Caso tenha escolhido mais de uma espécie))</h1>
+											<select name="category" id="category">												
+												<option value="1">1 - 5</option>
+												<option value="1">5 - 10</option>
+												<option value="1">10 - 15</option>
+												<option value="1">15 - 20</option>
+												<option value="1">20 - 25</option>
+												<option value="1">25 - 35</option>
+												<option value="1">Acima de 35</option>
+											</select>
+										</div>
+										
+									
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-low" name="priority" checked>
+											<label for="priority-low">Alevino Vivo</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-normal" name="priority">
+											<label for="priority-normal">Alevino pré-preparado</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-high" name="priority">
+											<label for="priority-high">Alevino conservado(congelado)</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="copy" name="copy">
+											<label for="copy">Receber uma resposta</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="human" name="human" checked>
+											<label for="human">Confirmação de usuário</label>
+										</div>
+										<div class="col-12">
+											<textarea type="text" id="message" name="message" value="" placeholder="Digite uma mensagem para confirmação e detalhadamente, como deseja receber"  rows="6" required></textarea><br>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Enviar" class="primary" /></li>
+												<li><input type="reset" value="Resetar" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+
+						<!-- Image -->
+							<section>								
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">									
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic13.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic30.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic25.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic16.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic21.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic22.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic23.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic20.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic26.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic27.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic12.jpg" alt="" /></span></div>
+										
+									</div>
+								</div>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Todas as fotos são de total autoria.</li><li>Design: Milena Candida Serrano Miron - 2018</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
